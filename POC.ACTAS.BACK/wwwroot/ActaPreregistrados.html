@@ -1,0 +1,287 @@
+<!-- ACTA ISO -->
+<!DOCTYPE html>
+<html lang="en">
+	<body>
+		<meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Acta Preregistro</title>
+		<style>
+			body {
+				font-size: 13.33px; /*font-family: "Tw Cen MT";*/
+				font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* width: 8.5in; */
+			}
+			.evenTable tr {
+				padding: 10px;
+			}
+			.evenTable tr:nth-child(even) {
+				background-color: #d9d9d9;
+			}
+			.dutyTable td {
+				text-align: left;
+				padding-left: 20px;
+			}
+		</style>
+		<form id="form1" runat="server">
+			<div class="customPage">
+				<div id="headerDiv">
+					<table style="width: 100%; text-align: center; font-size: 11px">
+						<tbody>
+							<tr>
+								<td>
+									<img
+										src="data:image/jpeg;base64,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"
+										alt="Escudo"
+									/>
+								</td>
+							</tr>
+							<tr>
+								<td class="tf" colspan="3">
+									<strong>Rep&uacute;blica Dominicana</strong>
+								</td>
+							</tr>
+							<tr>
+								<td class="tf">
+									<strong>MINISTERIO DE HACIENDA</strong>
+								</td>
+							</tr>
+							<tr>
+								<td class="dgii" colspan="3">
+									<strong>DIRECCION GENERAL DE IMPUESTOS INTERNOS</strong>
+								</td>
+							</tr>
+							<tr>
+								<td class="tf" colspan="3">
+									<strong>RNC: 401-50625-4</strong>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<br />
+					<table style="width: 100%; text-align: center; font-size: 11px"></table>
+					<table style="width: 100%; text-align: center; font-size: 11px">
+						<tbody>
+							<tr>
+								<td>
+									<strong>ACTA DE PRE-REGISTRO</strong>
+									<hr />
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<table style="width: 100%; text-align: left; font-size: 11px">
+					<tbody>
+						<tr>
+							<td><strong>SE&Ntilde;OR/SE&Ntilde;ORA/SE&Ntilde;ORES</strong></td>
+						</tr>
+						<tr>
+							<td colspan="3">(P_NOMBRE)</td>
+						</tr>
+						<tr>
+							<td style="width: 188px"><strong>NO. PREREGISTRO: (P_NUM_RNC)</strong></td>
+						</tr>
+					</tbody>
+				</table>
+				<table style="width: 100%; text-align: justify; font-size: 11px">
+					<tbody>
+						<tr>
+							<td>
+								<p>
+									Durante la visita de inspecci&oacute;n realizada por esta Direcci&oacute;n General
+									de Impuestos Internos en fecha (P_FECHA_SOLIC), se detect&oacute; que usted realiza
+									hechos generadores de obligaciones tributarias. En tal sentido, le comunicamos que
+									se encuentra pre-registrado en nuestros sistemas con las siguientes informaciones:
+								</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<br />
+				<div style="text-align: left; font-size: 11px"><b> I. DATOS GENERALES </b></div>
+				<div>
+					<table style="width: 100%; text-align: justify; font-size: 11px">
+						<tbody>
+							<tr>
+								<td>
+									<span> <b>1. NOMBRE:</b> </span> <span>(P_RAZON_SOCIAL)</span>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>
+									<span> <b>2. DIRECCION:</b> </span> <span>(P_DIRECCION)</span>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>
+									<span> <b>3. URB/BARRIO/SECTOR:</b> </span> <span>(P_SECTOR)</span>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>
+									<span> <b>4. MUNICIPIO:</b> </span> <span>(P_MUNICIPIO)</span>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>
+									<span> <b>5. PROVINCIA:</b> </span> <span>(P_PROVINCIA)</span>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>
+									<span> <b>6. TELEFONO:</b> </span> <span>(P_TELEFONO)</span>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>
+									<span> <b>10. CORREO ELECTRONICO:</b> </span> <span>(P_CORREO_E)</span>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>
+									<b> <span>13. FECHA DE REGISTRO:</span> </b> <span>(P_FECHA_RNC)</span>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<br />
+				<table style="width: 100%; text-align: justify; font-size: 11px">
+					<tbody>
+						<tr>
+							<td>
+								<span> <b>II. ACTIVIDAD(ES) ECONOMICA(S) </b> </span>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="3 ">
+								<table style="width: 100%; font-size: 11px" class="evenTable">
+									<tr>
+										<th></th>
+										<th>CODIGO CIIU</th>
+										<th>NOMBRE DE LA ACTIVIDAD</th>
+									</tr>
+									<tr>
+										<th>PRINCIPAL:</th>
+										(P_DATOS_ACTIVIDAD_PRINCIPAL)
+									</tr>
+									(P_DATOS_ACTIVIDAD_SECUNDARIA)
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<br />
+				<table style="width: 100%; text-align: justify; font-size: 11px">
+					<tbody>
+						<tr>
+							<td>
+								<b>
+									<span>
+										<br />
+										INFORMACIONES GENERALES
+									</span>
+								</b>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<br />
+								<ul style="margin-left: -15px">
+									<li>
+										Conforme el levantamiento de informaci&oacute;n realizado en la visita, usted no
+										se encuentra inscrito en el Registro Nacional de Contribuyentes (RNC). Usted
+										puede solicitar su inscripci&oacute;n al RNC especificando el n&Uacute;mero de
+										pre-registro (indicado en este documento) en el formulario de inscripci&oacute;n
+										al RNC disponible en nuestro portal web www.dgii.gov.do o inscribirse de forma
+										presencial en la Administraci&oacute;n Local m&aacute;s cercana.
+									</li>
+									<br />
+									<li>
+										La inscripci&oacute;n al RNC es un deber formal de los contribuyentes
+										establecido en el art&iacute;culo 50 del C&oacute;digo Tributario Dominicano
+										(Ley No. 11-92), cuyo incumplimiento puede ser sancionado con multa de cinco (5)
+										a treinta (30) salarios m&iacute;nimos (Art&iacute;culo 257 del referido
+										C&oacute;digo).
+									</li>
+									<br />
+									<li>
+										La DGII le otorga un plazo de treinta (30) d&iacute;as para completar el proceso
+										de inscripci&oacute;n al RNC, contados a partir de la fecha de
+										notificaci&oacute;n de este documento. En caso de que ya se encuentre inscrito
+										deber&aacute; depositar, en dicho plazo, una comunicaci&oacute;n en la
+										Administraci&oacute;n Local m&aacute;s cercana, aportando los datos del RNC
+										conjuntamente al Formulario de Actualizaci&oacute;n de RNC y copia de los
+										documentos que sustenten el registro que alega.
+									</li>
+									<br />
+									<li>
+										Si al t&eacute;rmino de los plazos otorgados en los p&aacute;rrafos anteriores,
+										usted no se presenta a actualizar las informaciones del presente pre-Registro,
+										esta Direcci&oacute;n General de Impuestos Internos proceder&aacute; de oficio a
+										actualizarlas, crear sus obligaciones tributarias y requerir el cumplimiento de
+										estas conforme las disposiciones de la Ley 11-92, sus Reglamentos y las Normas
+										Generales.
+									</li>
+									<br />
+									<li>
+										El presente documento adem&aacute;s de ser una notificaci&oacute;n de
+										pre-registro de sus obligaciones tributarias es una citaci&oacute;n formal para
+										concurrir a la Administraci&oacute;n Tributaria a actualizar las informaciones
+										de su RNC conforme a las evidencias que arrib&oacute; la visita antes
+										explicitadas, por lo que, la no comparecencia dar&aacute; lugar a aplicar
+										sanciones administrativas por el incumplimiento a los deberes formales,
+										espec&iacute;ficamente por violaci&oacute;n a lo dispuesto en los literales c),
+										d), g) j) del art&iacute;culo 50 de la Ley 11-92, y la Norma General 04-2021.
+									</li>
+									<br />
+									<li>
+										Una vez inscrito, podr&aacute; evaluar si cumple con los requisitos establecidos
+										en el Decreto No. 265-19 con relaci&oacute;n a su actividad econ&oacute;mica, su
+										nivel de ingresos y sus vol&uacute;menes de compras para acogerse al
+										R&eacute;gimen Simplificado de Tributaci&oacute;n, el cual es un r&eacute;gimen
+										de facilitaci&oacute;n para el cumplimiento de las obligaciones tributarias de
+										los contribuyentes, ya sean estas personas f&iacute;sicas o jur&iacute;dicas.
+									</li>
+									<br />
+									<li>Este documento no le exime de solicitar su inscripci&oacute;n al RNC.</li>
+								</ul>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div id="footerDiv">
+				<div style="text-align: center; width: 100%">(FIRMA_DIGITAL)<br /></div>
+				<div style="text-align: center; width: 100%">
+					<table style="width: 100%; text-align: center; font-size: 11px">
+						<tbody>
+							<tr>
+								<td>
+									<img
+										style="margin-left: -25px"
+										src="data:image/png;base64,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"
+										alt="EscudoFoot"
+									/>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<br />
+				<br />
+			</div>
+		</form>
+	</body>
+</html>

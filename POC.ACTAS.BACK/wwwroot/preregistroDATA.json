@@ -1,0 +1,155 @@
+{
+  "rncCedula": "04701816367",
+  "tipoPersona": 1,
+  "nacionalidad": 1,
+  "fechaCierreFiscal": 12,
+  "fechaInicioOperaciones": "2006-08-30T00:00:00",
+  "idCondicionInscripto": 3,
+  "idPais": 800,
+  "idAdministracionLocal": 3,
+  "idRegimenPago": 1,
+  "ideTributariaExtranjero": null,
+  "idTamanoEmpresa": 0,
+  "esGranContribuyente": false,
+  "esFranquicia": false,
+  "tipoFranquicia": null,
+  "idProveedorServicio": 0,
+  "noServicio": null,
+  "enProceso": false,
+  "fechaIncorporacion": "2006-08-30T00:00:00",
+  "administracionLocal": {
+    "id": 3,
+    "nombre": "ADM LOCAL LA VEGA"
+  },
+  "regimenPago": {
+    "id": 1,
+    "descripcion": "Normal"
+  },
+  "tamanoEmpresa": {
+    "id": 0,
+    "descripcion": "N/A"
+  },
+  "situacion": {
+    "idSituacion": 1,
+    "descripcion": "ACTIVO",
+    "modificable": true,
+    "fechaInicio": "2006-08-30T00:00:00",
+    "fechaFin": null,
+    "motivo": {
+      "id": 0,
+      "descripcion": "N/A"
+    },
+    "fechaDesde": null,
+    "fechaHasta": null,
+    "usuarioIncorporacion": "RDO",
+    "fechaIncorporacion": "2022-12-21T20:09:33",
+    "usuarioModificacion": "RDO",
+    "fechaModificacion": "2022-12-21T20:09:33",
+    "idMotivoSituacion": 0
+  },
+  "proveedorServicio": {
+    "id": 0,
+    "nombre": "N/A"
+  },
+  "pais": {
+    "id": 800,
+    "nombre": "REPUBLICA DOMINICANA"
+  },
+  "condicionInscripto": {
+    "id": 3,
+    "nombre": "PRE-REGISTRADO",
+    "estado": true
+  },
+  "personaFisica": {
+    "rncCedula": "04701816367",
+    "idTipoIdentificacion": 2,
+    "nombres": "JOEL HOLGUIN ARACENA",
+    "apellidos": null,
+    "sexo": 1,
+    "fechaNacimiento": "1986-07-31T00:00:00",
+    "noPasaporte": null,
+    "fechaVencimientoPasaporte": null,
+    "tipoIdentificacion": {
+      "id": 2,
+      "descripcion": "CÉDULA"
+    }
+  },
+  "personaJuridica": null,
+  "informacionesComercial": {},
+  "regimenEspecial": [],
+  "patrimonioEirl": [],
+  "relacionesReorganizacion": [],
+  "franquiciantes": [],
+  "localidades": [
+    {
+      "id": 2868996,
+      "tipoLocalidad": {
+        "id": 1,
+        "descripcion": "OFICINA PRINCIPAL"
+      },
+      "tipoBanca": {
+        "id": 0,
+        "descripcion": "N/A"
+      },
+      "tipoDomicilio": {
+        "id": 0,
+        "descripcion": "N/A"
+      },
+      "tipoDireccion": {
+        "id": 5,
+        "descripcion": "CALLE"
+      },
+      "fecha": "0001-01-01T00:00:00",
+      "estado": true,
+      "fuente": null,
+      "rncCedula": "04701816367",
+      "descripcion": "JOEL HOLGUIN ARACENA",
+      "idTipoLocalidad": 1,
+      "valoracion": 1,
+      "esPrincipal": true,
+      "fechaInicioOperaciones": "2006-08-30T00:00:00",
+      "identifEstablecimiento": 0,
+      "direccion": {
+        "idSector": 4283,
+        "idMunicipio": 47,
+        "idProvicia": 14,
+        "calle": "PRINCIPAL",
+        "referencia": null,
+        "departamento": null,
+        "edificio": null,
+        "numero": "S/N",
+        "codigoPostal": null,
+        "sectorExtranjero": null,
+        "provinciaExtranjero": null,
+        "municipioExtranjero": null,
+        "ubicacionGeografica": {
+          "long": 0,
+          "lat": 0
+        }
+      }
+    }
+  ],
+  "responsableSolidarios": [],
+  "defaultContribuyenteActividadesEconomicas": [],
+  "contactos": [],
+  "fiscalDutiesSugestions": [],
+  "situacionContribuyente": {
+    "idSituacion": 1,
+    "descripcion": "ACTIVO",
+    "modificable": true,
+    "fechaInicio": "2006-08-30T00:00:00",
+    "fechaFin": null,
+    "motivo": {
+      "id": 0,
+      "descripcion": "N/A"
+    },
+    "fechaDesde": null,
+    "fechaHasta": null,
+    "usuarioIncorporacion": "RDO",
+    "fechaIncorporacion": "2022-12-21T20:09:33",
+    "usuarioModificacion": "RDO",
+    "fechaModificacion": "2022-12-21T20:09:33",
+    "idMotivoSituacion": 0
+  },
+  "cambios": []
+}
